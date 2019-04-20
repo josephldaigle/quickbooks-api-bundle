@@ -1,0 +1,25 @@
+{
+    "name": "joedaco/php-quickbooks-online",
+    "description": "A REST API Integration Module for Quickbooks Online and Symfony 4.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Joe Daigle",
+            "email": "josephldaigle@yahoo.com"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "JoeDaCo\\QuickBooks\\": "src/main/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JoeDaCo\\QuickBooks\\Test\\": "src/tests/"
+        }
+    }
+}

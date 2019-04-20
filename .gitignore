@@ -1,0 +1,6 @@
+.idea
+
+# Symfony
+.env*
+
+/vendor/
